@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Thai&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans Thai', sans-serif;
+}
+
+body {
+    font-size: 16px;
+}
+
+.header {
+    background-image: url(../image/sasitop.webp);
+    height: 90vh;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+}
+
+nav {
+    width:100%;
+    display: flex;
+    height: fit-content;
+    align-items: center;
+    color: white;
+    background: linear-gradient(#4a4a4a8b, #ffffff00 );
+}
+.nav-content {
+    margin: .5em 3em;
+    display: flex;
+    width: 100%;
+}
+.logo {
+    margin: 0 8px;
+    padding: 0 8px ;
+    width: fit-content;
+}
+.firstnav{
+    display: flex;
+    flex: 1 1 0%;
+}
+
+.firstnav li {
+    padding: 0 20px;
+
+}
+
+.firstnav  li a {
+    text-decoration: none;
+    color: white;
+}
+
+.lang{
+    display: flex;
+    
+}
+
+.lang li {
+    padding: 0 5px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.img-center {
+    display: block;
+    display: flex;
+    justify-content: center;
+}
+.sasi-1 {
+    margin-bottom: 3.5rem;
+}
+.sasi-2 {
+    margin-top: 6rem;
+}
+h1 {
+    font-size: inherit; 
+}
+.brand-h1 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.625;
+}
+p {
+    font-size: 1rem;
+    line-height: 1.75;
+    color: #374151;
+    display: block;
+    padding-left: 3%;
+    padding-right: 4%;
+}
+
+.powder {
+    width: 100%;
+    margin: 3em auto;
+}
+.powder img{
+    width: 95%;
+    display: block;
+    object-fit: cover;
+    margin: 0 auto;
+
+}
+
+.text-product {
+    font-weight: 600;
+    text-align: center;
+    font-size: 2.25rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    
+}
+.product-content {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 0 auto;
+    width: 100%;
+}
+.product {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    height: 100%;
+    margin-bottom: 10px;
+}
+.product img {
+    width: 100%;
+    margin: auto;
+    height: 80%;
+    object-fit: cover;
+}
+.product h3.name1 {
+    text-align: center;
+    font-size: .9em;
+    padding: 1em;
+}
+
+h2 {
+    margin-top: 6rem;
+    text-align: center;
+    line-height: 1.625;
+    font-weight: 600;
+    margin-bottom: 2rem;
+    font-size: 2.25rem;
+}
+.address {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.storyblock {
+    height: auto;
+    display: flex;
+    outline: none; 
+    width: 100%;
+    object-fit: cover;
+}
+.storyblock img{
+    width:25%;
+}
+
+footer{
+ background-color:#563d82; 
+font-size: larger;
+font-family: 'Courier New', Courier, monospace;
+}
+.content-footer{
+    display:flex;
+    color:rgb(255,255,255,.5)
+}
+.content-footer h4{
+    width:fit-content;
+    text-decoration: underline;
+}
+.content-footer li{
+    list-style-type: none;
+}
+.content-footer a{
+    text-decoration: none;
+    color:rgb(255,255,255,.5);
+}
+.content-footer ul{
+    padding-left:0;
+    margin-right:2em;
+}
+.srichand-content{
+    display:flex;
+}
+.srichand-content ul{
+    margin-top:0;
+}
+.container {
+    margin-top: 50px;
+}
+.address a {
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+@media screen and (max-width: 320px) {
+    .header {
+        background-size: 0;
+        height: auto;
+    }
+    .logo img {
+        width: 25px;
+        padding-top: 10px;
+        margin: 0;
+    }
+    nav {
+        width: 100%;
+    }
+    .nav-content ul.firstnav {
+        display: none;
+    }
+    .nav-content{
+        margin: 0;
+        justify-content: space-between;
+    }
+    .product-content {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .title-content-page3 {
+        clear: both;
+    }
+    .text-contact {
+        width: 90%;
+        display: flex;  
+    }
+    .storyblock {
+        display: none;
+    }
+    
+
+}
+
+
+
+

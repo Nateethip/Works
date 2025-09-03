@@ -1,0 +1,423 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Thai&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans Thai', sans-serif;
+}
+
+body {
+
+    font-size: 16px;
+}
+
+.header {
+    background-image: url(image/srichand_top.webp);
+    height: 90vh;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+   
+}
+
+nav {
+    width: 100%;
+    margin: 0 10px;
+    display: flex;
+    height: fit-content;
+    align-items: center;
+    color: white;
+    background: linear-gradient(#4a4a4a8b, #ffffff00 );
+}
+
+.logo {
+    margin: 0 8px;
+    padding: 0 8px;
+    width: fit-content;
+}
+.firstnav {
+    display: flex;
+    flex: 1 1 0%;
+}
+.firstnav li {
+    padding: 0 20px;
+
+}
+.firstnav li a {
+    text-decoration: none;
+    color: white;
+}
+.nav-content {
+    margin: .5em 3em;
+    display: flex;
+    width: 100%;
+}
+.lang {
+    display: flex;
+}
+.lang li {
+    padding: 0 5px;
+}
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.box {
+
+    width: auto;
+    height: 100px;
+    background-color: #ece8f4 ;
+}
+
+.content h2 {
+    text-align: center;
+    margin-top: 50px;
+    font-weight: 600;
+    font-size: 2.25rem;
+}
+
+.brand {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+}
+.brand li {
+    padding: 0 20px;
+    list-style: none;
+}
+
+.all-logo {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
+}
+.logo1 {
+    border: 1px solid rgb(128, 128, 128, .5);
+    padding: 150px 100px 180px;
+}
+.logo2 {
+    border: 1px solid rgb(128, 128, 128, .5);
+    padding: 150px 100px 150px 120px;
+}
+.logo3 {
+    border: 1px solid rgb(128, 128, 128, .5);
+    padding: 150px 70px 90px;
+}
+.logo4 {
+    border: 1px solid rgb(128, 128, 128, .5);
+    padding: 150px 70px 150px 90px;
+}
+.logo5 {
+    border: 1px solid rgb(128, 128, 128, .5);
+    padding: 150px 100px 90px;
+}
+.logo6 {
+    border: 1px solid rgb(128, 128, 128, .5);
+    padding: 150px 100px 130px 130px;
+}
+
+.shop-online {
+    display: flex;
+    justify-content: center;
+}
+.shop {
+    margin-top: 80px;
+    margin-bottom: 50px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.button a {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: .875rem;
+    height: 15px;
+    width: fit-content;
+    background-color: #563D82;
+    color: #FFFFFF;
+    padding: 16px;
+    border-radius: 30px;
+    margin-top: 40px;
+}
+
+footer {
+    background-color: #563d82;
+    font-size: larger;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.content-footer {
+    display: flex;
+    color: rgb(255, 255, 255, .5)
+}
+.content-footer h4 {
+    width: fit-content;
+    text-decoration: underline;
+}
+.content-footer li {
+    list-style-type: none;
+}
+.content-footer a {
+    text-decoration: none;
+    color: rgb(255, 255, 255, .5);
+}
+.content-footer ul {
+    padding-left: 0;
+    margin-right: 2em;
+}
+
+.srichand-content {
+    display: flex;
+}
+.srichand-content ul {
+    margin-top: 0;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+.head-content {
+    margin-top: 15px;
+}
+
+.img-career{
+    display: flex;
+    justify-content: space-between; 
+}
+.career{
+    display: flex;
+}
+.container-career{
+    padding: 64px 48px;
+}
+
+.title-content-page3 h2{
+    margin: 0 0 16px;
+    font-size: 36px;
+}
+
+.img-career img {
+    max-width: 100%;
+}
+.work1 h2 {
+    font-size: 2.25rem;
+}
+.work1 h3, .work2 h3, .work3 h3 {
+    font-size: 1.25rem;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.career-image {
+    width: 100%;
+    display: flex;
+    outline: none; 
+    width: 100%;
+    margin-top: 15%;
+}
+
+.job1, .job2{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 17%;
+    padding: 32px; 
+}
+.job2{
+    margin-left: 32px; 
+}
+.job1 h3 , .job2 h3{
+    margin: 0 0 12px;
+}
+.job1 a, .job2 a, .job3 a, .job4 a, .job5 a, .job6 a, .job7 a, .job8 a, .job9 a, .job10 a, .job11 a {
+    margin: 4px;
+    color: #563d82;
+}
+.grid{
+    display: flex;
+    
+}
+.grid2 {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin: 20px;
+    gap:35px 0;
+}
+.grid3 {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin: 20px;
+    gap:35px 0;
+}
+.job3, .job4, .job5, .job6, .job7{
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.19), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 32px;
+    width: 73%;
+    
+}
+.job8, .job9, .job10, .job11{
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.19), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 32px;
+    width: 73%;
+}
+.title-content-page3 {
+    margin-right: 10px;
+}
+.title-page2, .title-page3 {
+    position: absolute;
+    top: 15rem;
+    margin-left: 20px;
+    color: white;
+}
+.title-page2 h1, .title-page3 h1 {
+    font-weight: 600;
+    font-size: 48px;
+}
+
+.job1 {
+    margin-left: 20px;
+}
+
+.work1 h2, .work1 h3 {
+    margin-left: 20px;
+}
+.work2 h3 {
+    margin-left: 20px;
+}
+.work3 h3 {
+    margin-left: 20px;
+}
+
+@media screen and (max-width:320px){
+    .logo img {
+        width: 25px;
+        padding-top: 10px;
+        margin: 0;
+    
+    }
+    nav {
+        width: 100%;
+    }
+    .nav-content ul.firstnav {
+        display: none;
+    }
+    .nav-content{
+        margin: 0;
+        justify-content: space-between;
+    }
+
+    .title-page3{
+        margin-top: -56%;
+    }
+    .title-page3 h1 {
+        font-size: 30px;
+    }
+    .title-page3 p {
+        font-size: 14px;
+    }
+
+    .career{
+        flex-direction: column;
+    }
+    .grid,.grid2,.grid3{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    .career-image{
+        display: none;
+    }
+
+    .container-career {
+        padding: 64px 16px;
+        background-color: linear-gradient(rgba(232,232,232,255), rgb(255, 255, 255));
+    }
+
+    .title-content-page3 p{
+        padding-bottom: 30px;
+    }
+    .header {
+        background-image: url(image/srichand_top.webp);
+        height: 240px;
+        width: 100%;
+        background-size: cover;
+        display: flex;
+    }
+
+    .business-container1{
+        padding: 64px 16px;
+    }
+    .work1 h2{
+        margin: 0;
+        margin-bottom: 20px;
+    }
+    .work1 h3{
+        margin: 0;
+        margin: 32px 0 24px;
+    }
+
+    .job1{
+        margin: 0;
+        margin-bottom: 30%;
+        width: 70%;
+    }
+    .job2 {
+        width: 70%;
+        margin-left: 0;
+    }
+    .all-logo {
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .title-page2{
+        margin-top: -56%;
+    }
+    .title-page2 h1 {
+        font-size: 30px;
+    }
+    .title-page2 p {
+        font-size: 14px;
+    }
+
+    .content h2 {
+        width: 80%;
+        margin-left: 30px;
+    }
+
+    .brand li {
+       display: flex;
+       justify-content: center;
+       width: 10%;
+    } 
+
+    .logo1 , .logo2, .logo3,.logo4,.logo5 ,.logo6{
+        padding: 0;
+    }
+    .logo1 img, .logo2 img, .logo3 img,.logo4 img ,.logo5 img,.logo6 img{
+        width: 110px;
+        padding: 50px;
+        padding-left: 20px;
+        padding-right: 1rem;
+        margin-top: 10px;
+    }
+    .logo1 img{
+        padding: 50px;
+        padding-left: 25px;
+        padding-right: 1rem;
+    }
+    .logo5 img{
+        padding: 50px 0 0 25px;
+       
+    }
+    .logo6 img{
+        padding: 25px 25px;
+    }
+}
